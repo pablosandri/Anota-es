@@ -1,0 +1,58 @@
+![Zoly](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
+
+Área - Digital Analytics
+
+# Campanhas utm_source
+
+Última atualização: 14/09/2017
+
+Em caso de dúvidas, entrar em contato com: [digital.analytics@zoly.com.br](mailto:digital.analytics@zoly.com.br)
+
+# Objetivo
+Este documento tem como objetivo instruir a implementação dos `Cookies` *utm-source* e *utm_campaing*, que nos permitem monitorar os
+diferentes meios em que uma mesma URL é compartilhada.
+
+# Overview e Descrições Técnicas
+
+## Parametros URL
+
+Quando você inclui um URL no seu anúncio, por exemplo, em um anúncio da Web ou de e-mail, é possível adicionar parâmetros a esse URL para capturar dados de relatórios importantes, como o site em que o anúncio foi exibido, o nome da campanha e as palavras-chave usadas no anúncio. Um URL com esses tipos de parâmetros tem a seguinte aparência:
+
+```html
+ http://www.example.com/?utm_source=adsite&utm_campaign=campanhadoanuncio&utm_term=palavra-chavedoanuncio
+```
+
+## UTM 
+
+A sigla *UTM* significa Urchin Tracking Module ( Módulo de Rastreamento Urchin), na prática, usamos esses parametros para idêntificar origem do trafego e outras informações no `Google Analytics`.
+ 
+## Cookie
+
+Cookie é um arquivo de texto armazenado no navegador, que tem o proposito de persistir informações, como senhas, identificações entre 
+outras informações.
+
+# Implementação
+
+Todas as vezes que for identificado o seguinte parâmetro na *URL* `utm_source`, é necessario criar um cookie com as seguintes chaves e valores:
+
+Exemplo:
+
+Quando um usuario entrar no site com os seguintes parametros:
+
+```html
+ http://www.example.com/?utm_source=zoly&utm_campaign=zoly&utm_term=palavra-chavedoanuncio
+```
+Devemos criar o seguinte cookie:
+
+```javascript
+ document.cookie = "utm_source=zoly; expires= fim da campanha; path=/";
+```
+
+| COOKIE | VALUE | DOMAIN | EXPIRES |
+| :---- | :-- | :-------- | :-------- |
+| utm_source | zoly | example.com | Depende do tempo da campanha |
+
+E o resultado final vai ser o seguinte:
+  
+![Zoly](http://lucida-brasil.github.io/public/Images/zoly-cookie-utm.png)
+
