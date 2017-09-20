@@ -1,5 +1,7 @@
 // Uteis
 https://pablosandri.github.io/sandbox/android-dot-com/index.html?#screens
+http://lucida-brasil.github.io/clientes/template/naming-convention/
+
 ga('send', 'event', 'category ', 'click,', 'descrição', dimension5)
 ga('send', 'dimension5');
 
@@ -455,27 +457,6 @@ fbq('track', 'Purchase', {
   }
 
 
-  // Nota fiscal NFS
-
-  /*
-    Prestação de Serviços de TAG Manager e scripts em Javascript.
-
-    Para as contas:
-
-    Porto Seguro,
-    Estacio,
-    Livelo,
-    Alelo,
-    Manager,
-    Eudora,
-    Vivo.
-
-    Valor depositado em conta corrente:
-    Pablo Sandri
-    AGENCIA: 1557-1
-    CONTA: 21.697-6
-  */
-
 var az = ['a','b','c','d','e','f','g','h','i'];
 var printuser = [];
 
@@ -509,27 +490,70 @@ console.log(printuser);,
         });
 
 
+        /*email
+			Lucas,
+ 
+			Finalizamos a validação técnica também dos Atributos HTML, de acordo com nossa documentação.
+			Com isso, os dois arquivos – enviados na sexta-feira e agora em anexo, são referentes a todos os pontos do ambiente contemplados em nosso Documento Técnico. Considere ambos arquivos para realizar os ajustes apontados.
+			 
+			Pode compartilhar essa outra documentação com seu time, por favor?
+			 
+			Qualquer dúvida me avise.
+			Obrigado e abs.
+			------------------
+			Boa noite Gustavo e André, tudo bem?
 
-    $('.icon-continuar').on('mousedown',function(){
-        var self = $(this);
-        var passo = self.attr('ng-click');
+			Nosso time checou aqui e parece que nossa tag ainda não está implementada no revenda.eudora.com.br. Poderiam checar, por gentileza? Se precisarem podemos fazer um Skype para ajudá-los, ok?
 
-        if (passo == 'fnPasso(1)') {
-          console.log ('yesss');
-        }
-    });
+			Obrigado!
+			Abraços,
+			-------------------
+			Boa tarde Leo,
+			Aguardo seu retorno.
 
+			Abraço
+			-------------------
+			Bom dia Leo, tudo bem?
+			Sempre que me enviar e-mail de demandas por favor manter o grupo digitalanalytics@zoly.com.br para que eles possam ir tocando as atividades e agilizar o fluxo.
 
+			Sobre a demanda acima, quais são os ambientes? www.sadiakits.com.br e www.perdigaokits.com.br? 
+			Se forem estes, até o momento eles não instalaram o Google Tag Manager e aí não conseguimos ajudar com a demanda acima.
 
+			Abraço.
+			---------------------
+			Opa Rafa, tudo certo.
+ 
+			Acredito que só seria necessário o tagbook que foi produzido para esse projeto, se possível. A documentação está limitada a poucas interações, diferentes do que ele está solicitando por e-mail. Pode me enviar, por favor?
+			 
+			Abs.
+			-------------------------
+			Oi Adriano,
+ 
+			A divergência está por conta do push de login.  
+			 
+			A documentação já foi ajustada e acredito que seja bem difícil visualizar o problema, por ser um erro bem mínimo.  
+			 
+			Vou detalhar abaixo para facilitar. Compartilhe essa explicação com seu desenvolvedor, por favor.
+
+			//js
+
+			Perceba que nesse o nome dos atributos eventAction e eventLabel não possuem esse caractere.
+ 
+			Referência: http://lucida-brasil.github.io/clientes/Sesc/implementacao_camada_de_dados/#login
+			 
+			Pode verificar se essa explicação facilita o entendimento deles, por favor?
+			 
+			Qualquer dúvida estou à disposição.
+			Obrigado e abs.
+			
+			---------------------------------
+			
+
+        */
      return modalidade.options[modalidade.selectedIndex].innerText.toLowerCase()
 
 
      //Criptografia
-     
-
-
-
-
 /*
 CryptoJS v3.1.2
 code.google.com/p/crypto-js
@@ -1028,25 +1052,19 @@ dataLayer.push({
 
 
 				//Aprendendo git
-				/*
 
-				Abs */
+					/*
+					echo "# mccount" >> README.md
+					git init
+					git add README.md
+					git commit -m "first commit"
+					git remote add origin https://github.com/pablosandri/mccount.git
+					git push -u origin master
+					Abs */
+
 				Para voltar o arquivo para o commit da master(versão anterior) |  git checkout -- <file>;
 				
 				
 				*/
 
 				https://github.com/pablosandri/clientes.git
-
-function(){
-  try{
-	var estado = {{dataLayer.estado}};
-  	var curso = {{dataLayer.curso}};
-	var cidade = {{dataLayer.cidade}};
-	var unidade = {{dataLayer.campus}};
-	var modalidade = {{dataLayer.modalidade}};
-	var turno = {{dataLayer.turno}};
-  }catch(e){}
-}
-	
-
