@@ -520,13 +520,13 @@ console.log(printuser);,
 			Se forem estes, até o momento eles não instalaram o Google Tag Manager e aí não conseguimos ajudar com a demanda acima.
 
 			Abraço.
-			---------------------
+			--------------------------------
 			Opa Rafa, tudo certo.
  
 			Acredito que só seria necessário o tagbook que foi produzido para esse projeto, se possível. A documentação está limitada a poucas interações, diferentes do que ele está solicitando por e-mail. Pode me enviar, por favor?
 			 
 			Abs.
-			-------------------------
+			------------------------------------
 			Oi Adriano,
  
 			A divergência está por conta do push de login.  
@@ -534,9 +534,7 @@ console.log(printuser);,
 			A documentação já foi ajustada e acredito que seja bem difícil visualizar o problema, por ser um erro bem mínimo.  
 			 
 			Vou detalhar abaixo para facilitar. Compartilhe essa explicação com seu desenvolvedor, por favor.
-
 			//js
-
 			Perceba que nesse o nome dos atributos eventAction e eventLabel não possuem esse caractere.
  
 			Referência: http://lucida-brasil.github.io/clientes/Sesc/implementacao_camada_de_dados/#login
@@ -545,9 +543,66 @@ console.log(printuser);,
 			 
 			Qualquer dúvida estou à disposição.
 			Obrigado e abs.
+			-------------------------------------
+			Bom dia Danilo,
+			O acesso já foi concedido.
+
+			Abraço.
+			------------------------------------
+
+			Olá Flávia e Laura,
+
+			Estamos utilizando as seguintes views para a extração dos dados:
+			Pós e MBA Executivo
+			propriedade: estacio.br
+			vista da propriedade: [Lúcida] pos.estacio.br
+
+			Pós Executiva
+			propriedade: Pós Executiva
+			vista da propriedade: [Lúcida] - 01 | Filtrado
+
+
+			Porém devemos reiterar, não aconselhamos a utilização direta dos dados do GA, pois é feito um tratamento dos dados pelo de-para que pode resultar em valores diferentes entre a utilização de filtros do GA e os dados do Qlikview.
+		
+			@Laura, para que a Artplan possa utilizar os dados tanto de Graduação como de Pós precisamos do acesso ao FTP da Artplan, para que esses dados sejam enviados automaticamente.
+
+			Estou colocando em anexo os dados de setembro da tabela enviada para a Cortex.
+
+			@Flávia, conforme combinamos o de-para foi terminado hoje, a partir de agora começaremos a fazer as validações dos dados para garantir que todas as regras da Artplan estejam sendo cumpridas.
+
+			Assim que o acesso ao FTP for passado começaremos a enviar os dados para a Artplan, esse envio é feito todo dia pela manhã.
+
+			Caso vocês tenham alguma dúvida sobre os dados fornecidos estamos a disposição.
+
+			Att
 			
-			---------------------------------
-			
+			---------------------------------------------
+			Leo,
+			Como sequência do cronograma desse projeto de BRF, segue abaixo as documentações que especificam a implementação da camada de dados. Essa implementação será necessária para o envio de todos os dados mapeados de navegação ao Google Analytics.
+			 
+			www.sadiakits.com.br
+			Link: http://lucida-brasil.github.io/clientes/BRF/sadia_kits_natalinos/camada_de_dados/
+			 
+			www.perdigaokits.com.br
+			Link: http://lucida-brasil.github.io/clientes/BRF/perdigao_kits_natalinos/camada_de_dados/
+			 
+			Pode direcionar também esses links de documentações aos desenvolvedores do ambiente, por favor?
+			 
+			Qualquer dúvida, estamos à disposição.
+			Obrigado e abs.
+
+			-------------------------------------------
+
+			Gustavo, boa tarde,
+ 
+			Obrigada pelo retorno.
+			Inseri alguns comentários abaixo e acho pertinente agendarmos uma visita de vocês aqui no Santander com o objetivo de alinhar a questão de acessos e esclarecimentos com a ZUP.
+			 
+			Minha sugestão é sexta-feira.
+			Você pode?
+			 
+			Att.
+			Luciana
 
         */
      return modalidade.options[modalidade.selectedIndex].innerText.toLowerCase()
@@ -1063,8 +1118,3 @@ dataLayer.push({
 					Abs */
 
 				Para voltar o arquivo para o commit da master(versão anterior) |  git checkout -- <file>;
-				
-				
-				*/
-
-				https://github.com/pablosandri/clientes.git
