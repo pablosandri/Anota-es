@@ -8,6 +8,7 @@ Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@
 
 Esse documento descreve os detalhes apara correção da camada de dados do site [Renegociação](https://homologacaorenegocie.pgd.to/index.php).
 
+### Correções
 
 #### Page Name dinâmico
 
@@ -15,9 +16,9 @@ Nomear as páginas dinamicamente de acordo com o usuário.
 
 Exemplo:
 
-- Usuario for PF, o pagename seguiria como  IT:LG:**PF**:Renegociacao..."
+- Quando o usuário for PF, o pagename seguiria como  IT:LG:**PF**:Renegociacao..."
 
-- Quando o cliente for NCC, o pagename seguiria como  IT:LG:**NCC**:Renegociacao..."
+- Quando o usuário for NCC, o pagename seguiria como  IT:LG:**NCC**:Renegociacao..."
 
 
 #### Atendimento
@@ -58,6 +59,7 @@ _satellite.track('click_attendance_action'); //Executar a função
 
 Descrição: Disparar as informações no dataLayer no callback da função de atendimento, no momento do clique do botão `Enviar` do atendimento via E-mail e Mensagem por Celular.
 
+```javascript
 window.analyticsData = {
     site: {
         "nome": "IT",
@@ -80,7 +82,7 @@ window.analyticsData = {
 };
 
 _satellite.track('click_attendance_action'); //Executar a função 
-
+```
 
 | CHAVE | TIPO | DESCRIÇÃO |
 | :---- | :--: | :-------- |
