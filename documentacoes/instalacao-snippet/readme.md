@@ -1,3 +1,7 @@
+![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
+
+# CI&T -  Feirão de Renegociação
+
 ## Homologação da Camada de dados
 
 Última atualização: 16/01/2018
@@ -87,3 +91,8 @@ _satellite.track('click_attendance_action'); //Executar a função
 | CHAVE | TIPO | DESCRIÇÃO |
 | :---- | :--: | :-------- |
 | event | string | Identificador único do botão, valores esperados `BTN:NCC:RenegociacaoHub:AtendimentoE-mailEnviar` e `BTN:NCC:RenegociacaoHub:AtendimentoMensagemPorCelularEnviar`. |
+
+
+#### Confirmar Renegociação
+
+Descrição: Disparar as informações no dataLayer no callback da função de atendimento, no momento do clique do botão `Enviar` do atendimento via E-mail e Mensagem por Celular.
