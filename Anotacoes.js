@@ -1,18 +1,26 @@
-// Uteis
+//Uteis
 https://pablosandri.github.io/sandbox/android-dot-com/index.html?#screens
+http://lucidada-brasil.github.io/clientes/template/naming-convention/
+https://pablosandri.github.io/sandbox/documentacoes/camada-de-dados/
 http://lucida-brasil.github.io/clientes/template/naming-convention/
+http://desenvolvimentoparaweb.com/javascript/delegacao-de-evento-event-delegation-javascript/
+https://github.com/lunametrics/youtube-google-analytics/blob/master/src/lunametrics-youtube.gtm.js
+https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk
+https://www.kirupa.com/html5/event_capturing_bubbling_javascript.htm
+https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html
+https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html
 
 ga('send', 'event', 'category ', 'click,', 'descrição', dimension5)
 ga('send', 'dimension5');
 
   window.dataLayer = window.dataLayer || [];
-  dataLayer.push({
+  dataLayer.paraush({
     'dimension1' : 'Estado',
     'dimension2' : 'Regiao',
     'dimension3' : 'Cidade',
     'dimension4' : 'Grupo'
   });
-
+    
 // Usar essa função para não afetar nenhuma variavel ou algo do tipo do site.
 ;(function() {
 
@@ -105,9 +113,6 @@ ga('send', 'dimension5');
 
     console.log( '[Variável titulo-banner}}') // variavel, macro
 
-
-
-
     // Aprendendo Cookie //
 
 
@@ -120,12 +125,12 @@ ga('send', 'dimension5');
      	 console.log('set', 'versão_do_site', 'teste')
      }
 
-     // Fim cookie
+    // Fim cookie
 
-     	// Datalayer//
-     	É um array onde o back-end pode colocar infos para o front, o proprio GTM que cria,
+   	// Datalayer//
+   	É um array onde o back-end pode colocar infos para o front, o proprio GTM que cria,
 
-     	//Customdata//
+   	//Customdata//
 
 		Customdata é um objeto, onde os devs coloca infos como, produto, cidade e etc.
 
@@ -226,6 +231,9 @@ ga('send', 'dimension5');
            e(false)
           })
       }());
+
+
+
 
 	// Disparo de evento no GA via templete
 
@@ -328,7 +336,7 @@ ga('send', 'dimension5');
         m    
         /(\/transferencia|\/segunda-graduacao)/
 
-        //cpf Leandro: 02154857850 21/06/1961 | 36894938890 05/05/1988
+     
 
         try { 
 
@@ -346,7 +354,7 @@ ga('send', 'dimension5');
         }
 
 
-        // Aulas de git
+        // Aulas de github
 
         // mkdir
         
@@ -391,7 +399,7 @@ Tag  lib scrolldeph.js
 
     try {  
       //PLUGIN EDITED BY GUS BASED ON http://scrolldepth.parsnip.io/
-      !function(a,b,c,d){!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof module&&module.exports?module.exports=a(require("jquery")):a(jQuery)}(function(a){"use strict";var i,d={minHeight:0,elements:[],percentage:!1,userTiming:!1,pixelDepth:!1,gtmOverride:!1,dataLayer:"dataLayer"},e=a(b),f=[],g=!1,h=0;return a.scrollDepth=function(j){function l(a,b,c,d){i&&(i({event:"ScrollDistance",scrollAction:a,scrollLabel:b}),j.pixelDepth&&arguments.length>2&&c>h&&(h=c,i({event:"ScrollDistance",scrollAction:"Pixel Depth",scrollLabel:p(c)})),j.userTiming&&arguments.length>3&&i({event:"ScrollTiming",scrollAction:a,scrollLabel:b,scrollTiming:d}))}function m(a){return{"25%":parseInt(.25*a,10),"50%":parseInt(.5*a,10),"75%":parseInt(.75*a,10),"100%":a-5}}function n(b,c,d){a.each(b,function(b,e){-1===a.inArray(b,f)&&c>=e&&(l("Percentage",b,c,d),f.push(b))})}function o(b,c,d){a.each(b,function(b,e){-1===a.inArray(e,f)&&a(e).length&&c>=a(e).offset().top&&(l("Elements",e,c,d),f.push(e))})}function p(a){return(250*Math.floor(a/250)).toString()}function q(){s()}function r(a,b){var c,d,e,f=null,g=0,h=function(){g=new Date,f=null,e=a.apply(c,d)};return function(){var i=new Date;g||(g=i);var j=b-(i-g);return c=this,d=arguments,j<=0?(clearTimeout(f),f=null,g=i,e=a.apply(c,d)):f||(f=setTimeout(h,j)),e}}function s(){g=!0,e.on("scroll.scrollDepth",r(function(){var d=a(c).height(),h=b.innerHeight?b.innerHeight:e.height(),i=e.scrollTop()+h,l=m(d),p=+new Date-k;if(f.length>=j.elements.length+(j.percentage?4:0))return e.off("scroll.scrollDepth"),void(g=!1);j.elements&&o(j.elements,i,p),j.percentage&&n(l,i,p)},500))}var k=+new Date;j=a.extend({},d,j),a(c).height()<j.minHeight||("function"==typeof j.eventHandler?i=j.eventHandler:void 0===b[j.dataLayer]||"function"!=typeof b[j.dataLayer].push||j.gtmOverride||(i=function(a){b[j.dataLayer].push(a)}),a.scrollDepth.reset=function(){f=[],h=0,e.off("scroll.scrollDepth"),s()},a.scrollDepth.addElements=function(b){void 0!==b&&a.isArray(b)&&(a.merge(j.elements,b),g||s())},a.scrollDepth.removeElements=function(b){void 0!==b&&a.isArray(b)&&a.each(b,function(b,c){var d=a.inArray(c,j.elements),e=a.inArray(c,f);-1!=d&&j.elements.splice(d,1),-1!=e&&f.splice(e,1)})},q())},a.scrollDepth})}(jQuery,window,document);
+      !function(a,b,c,d){!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof module&&module.exports?module.exports=a(require("jquery")):a(jQuery)}(function(a){"use strict";var i,d={minHeight:0,elements:[],percentage:true,userTiming:!1,pixelDepth:!1,gtmOverride:!1,dataLayer:"dataLayer"},e=a(b),f=[],g=!1,h=0;return a.scrollDepth=function(j){function l(a,b,c,d){i&&(i({event:"ScrollDistance",scrollAction:a,scrollLabel:b}),j.pixelDepth&&arguments.length>2&&c>h&&(h=c,i({event:"ScrollDistance",scrollAction:"Pixel Depth",scrollLabel:p(c)})),j.userTiming&&arguments.length>3&&i({event:"ScrollTiming",scrollAction:a,scrollLabel:b,scrollTiming:d}))}function m(a){return{"25%":parseInt(.25*a,10),"50%":parseInt(.5*a,10),"75%":parseInt(.75*a,10),"100%":a-5}}function n(b,c,d){a.each(b,function(b,e){-1===a.inArray(b,f)&&c>=e&&(l("Percentage",b,c,d),f.push(b))})}function o(b,c,d){a.each(b,function(b,e){-1===a.inArray(e,f)&&a(e).length&&c>=a(e).offset().top&&(l("Elements",e,c,d),f.push(e))})}function p(a){return(250*Math.floor(a/250)).toString()}function q(){s()}function r(a,b){var c,d,e,f=null,g=0,h=function(){g=new Date,f=null,e=a.apply(c,d)};return function(){var i=new Date;g||(g=i);var j=b-(i-g);return c=this,d=arguments,j<=0?(clearTimeout(f),f=null,g=i,e=a.apply(c,d)):f||(f=setTimeout(h,j)),e}}function s(){g=!0,e.on("scroll.scrollDepth",r(function(){var d=a(c).height(),h=b.innerHeight?b.innerHeight:e.height(),i=e.scrollTop()+h,l=m(d),p=+new Date-k;if(f.length>=j.elements.length+(j.percentage?4:0))return e.off("scroll.scrollDepth"),void(g=!1);j.elements&&o(j.elements,i,p),j.percentage&&n(l,i,p)},500))}var k=+new Date;j=a.extend({},d,j),a(c).height()<j.minHeight||("function"==typeof j.eventHandler?i=j.eventHandler:void 0===b[j.dataLayer]||"function"!=typeof b[j.dataLayer].push||j.gtmOverride||(i=function(a){b[j.dataLayer].push(a)}),a.scrollDepth.reset=function(){f=[],h=0,e.off("scroll.scrollDepth"),s()},a.scrollDepth.addElements=function(b){void 0!==b&&a.isArray(b)&&(a.merge(j.elements,b),g||s())},a.scrollDepth.removeElements=function(b){void 0!==b&&a.isArray(b)&&a.each(b,function(b,c){var d=a.inArray(c,j.elements),e=a.inArray(c,f);-1!=d&&j.elements.splice(d,1),-1!=e&&f.splice(e,1)})},q())},a.scrollDepth})}(jQuery,window,document);
     } catch(e) {
        dataLayer.push({'siteError':e});
     }
@@ -401,9 +409,6 @@ Tag  lib scrolldeph.js
 
 
 Tag Scroll Page 
-
-
-
 try {  
   (function (jQuery) {
     jQuery.scrollDepth({
@@ -482,15 +487,16 @@ console.log(printuser);,
 
 
  //Escolheu Area
-        $('#idSlcAreaConhecimento').on('change', function(){
-            var area_raw = $(this).find('option:selected').text();
-            area = lucida.string.sanitize( area_raw );
+  $('#idSlcAreaConhecimento').on('change', function(){
+      var area_raw = $(this).find('option:selected').text();
+      area = lucida.string.sanitize( area_raw );
 
-            dataLayer.push({'event': 'pos-escolheu-area', 'lucida-estado': area});
-        });
+      dataLayer.push({'event': 'pos-escolheu-area', 'lucida-estado': area});
+  });
 
 
-        /*email
+      /*email
+      
 			Lucas,
  
 			Finalizamos a validação técnica também dos Atributos HTML, de acordo com nossa documentação.
@@ -507,7 +513,27 @@ console.log(printuser);,
 
 			Obrigado!
 			Abraços,
-			-------------------
+			------------------
+			Boa tarde Alex, tudo bem?
+
+			Notei que na página de conclusão da proposta, o dataLayer não está recebendo alguns valores como iDProposta, confirmacaoId, sku e outros.
+
+			Sabe me informar se isso está ocorrendo por se tratar do ambiente de homologação?
+
+
+			Alex Silva (alex-lemos.silva@itau-unibanco.com.br, alex-lemos.silva@itau-unibanco.com.br)
+			boaa tarde Pablo!!
+			prazer em conhecê-lo virtualmente
+			ahaha
+			tudo bem e com vc?
+
+			Opaa, o prazer é meu!!
+
+			Deixa eu te perguntar, notei que na página de conclusão da proposta, o dataLayer não está recebendo alguns valores como iDProposta, confirmacaoId, sku e outros.
+			
+			Sabe me informar se isso está ocorrendo por se tratar do ambiente de homologação?
+
+			------------------
 			Boa tarde Leo,
 			Aguardo seu retorno.
 
@@ -575,11 +601,29 @@ console.log(printuser);,
 			Caso vocês tenham alguma dúvida sobre os dados fornecidos estamos a disposição.
 
 			Att
+
+      -------------------
+              Como muitos de vcs já sabem, estou saindo da CI&T para trilhar outros rumos na minha carreira.
+        Foram quatro anos e meio de muito aprendizado, parceria, e evolução. Levo daqui amigos, experiências e momentos incríveis que marcaram minha vida.
+
+        Espero poder manter contato com todos, e encontrá-los sempre que possível para um almoço, cerveja ou mesmo um café. Agradeço à todos vcs por me ensinarem e compartilharem comigo conhecimento, experiências e boas risadas.
+
+        Gostaria de agradecer de forma especial algumas pessoas que em momentos muito críticos, fizeram a diferença no minha vida. 
+
+        +Julio Freitas
+        +Andre Ramos
+        +Silvio Andrade
+        +Gabriel Marostegam
+
+        Muito obrigado por acreditarem em mim, por me apoiarem em situações difíceis, e por ajudarem à abrir novos caminho na minha carreira. Vcs foram cruciais, e sempre serão lembrados.
+
+        Grande Abraço
+
 			
 			---------------------------------------------
 			Leo,
 			Como sequência do cronograma desse projeto de BRF, segue abaixo as documentações que especificam a implementação da camada de dados. Essa implementação será necessária para o envio de todos os dados mapeados de navegação ao Google Analytics.
-			 
+	
 			www.sadiakits.com.br
 			Link: http://lucida-brasil.github.io/clientes/BRF/sadia_kits_natalinos/camada_de_dados/
 			 
@@ -604,19 +648,20 @@ console.log(printuser);,
 			Att.
 			Luciana
 
+
+
         */
      return modalidade.options[modalidade.selectedIndex].innerText.toLowerCase()
 
 
-     //Criptografia
-/*
-CryptoJS v3.1.2
-code.google.com/p/crypto-js
-(c) 2009-2013 by Jeff Mott. All rights reserved.
-code.google.com/p/crypto-js/wiki/License
-*/
+  /*
+  CryptoJS v3.1.2
+  code.google.com/p/crypto-js
+  (c) 2009-2013 by Jeff Mott. All rights reserved.
+  code.google.com/p/crypto-js/wiki/License
+  */
 var CryptoJS=CryptoJS||function(u,p){var d={},l=d.lib={},s=function(){},t=l.Base={extend:function(a){s.prototype=this;var c=new s;a&&c.mixIn(a);c.hasOwnProperty("init")||(c.init=function(){c.$super.init.apply(this,arguments)});c.init.prototype=c;c.$super=this;return c},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var c in a)a.hasOwnProperty(c)&&(this[c]=a[c]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},
-r=l.WordArray=t.extend({init:function(a,c){a=this.words=a||[];this.sigBytes=c!=p?c:4*a.length},toString:function(a){return(a||v).stringify(this)},concat:function(a){var c=this.words,e=a.words,j=this.sigBytes;a=a.sigBytes;this.clamp();if(j%4)for(var k=0;k<a;k++)c[j+k>>>2]|=(e[k>>>2]>>>24-8*(k%4)&255)<<24-8*((j+k)%4);else if(65535<e.length)for(k=0;k<a;k+=4)c[j+k>>>2]=e[k>>>2];else c.push.apply(c,e);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
+r=l.WordArray=t.extend( {init:function(a,c){a=this.words=a||[];this.sigBytes=c!=p?c:4*a.length},toString:function(a){return(a||v).stringify(this)},concat:function(a){var c=this.words,e=a.words,j=this.sigBytes;a=a.sigBytes;this.clamp();if(j%4)for(var k=0;k<a;k++)c[j+k>>>2]|=(e[k>>>2]>>>24-8*(k%4)&255)<<24-8*((j+k)%4);else if(65535<e.length)for(k=0;k<a;k+=4)c[j+k>>>2]=e[k>>>2];else c.push.apply(c,e);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
 32-8*(c%4);a.length=u.ceil(c/4)},clone:function(){var a=t.clone.call(this);a.words=this.words.slice(0);return a},random:function(a){for(var c=[],e=0;e<a;e+=4)c.push(4294967296*u.random()|0);return new r.init(c,a)}}),w=d.enc={},v=w.Hex={stringify:function(a){var c=a.words;a=a.sigBytes;for(var e=[],j=0;j<a;j++){var k=c[j>>>2]>>>24-8*(j%4)&255;e.push((k>>>4).toString(16));e.push((k&15).toString(16))}return e.join("")},parse:function(a){for(var c=a.length,e=[],j=0;j<c;j+=2)e[j>>>3]|=parseInt(a.substr(j,
 2),16)<<24-4*(j%8);return new r.init(e,c/2)}},b=w.Latin1={stringify:function(a){var c=a.words;a=a.sigBytes;for(var e=[],j=0;j<a;j++)e.push(String.fromCharCode(c[j>>>2]>>>24-8*(j%4)&255));return e.join("")},parse:function(a){for(var c=a.length,e=[],j=0;j<c;j++)e[j>>>2]|=(a.charCodeAt(j)&255)<<24-8*(j%4);return new r.init(e,c)}},x=w.Utf8={stringify:function(a){try{return decodeURIComponent(escape(b.stringify(a)))}catch(c){throw Error("Malformed UTF-8 data");}},parse:function(a){return b.parse(unescape(encodeURIComponent(a)))}},
 q=l.BufferedBlockAlgorithm=t.extend({reset:function(){this._data=new r.init;this._nDataBytes=0},_append:function(a){"string"==typeof a&&(a=x.parse(a));this._data.concat(a);this._nDataBytes+=a.sigBytes},_process:function(a){var c=this._data,e=c.words,j=c.sigBytes,k=this.blockSize,b=j/(4*k),b=a?u.ceil(b):u.max((b|0)-this._minBufferSize,0);a=b*k;j=u.min(4*a,j);if(a){for(var q=0;q<a;q+=k)this._doProcessBlock(e,q);q=e.splice(0,a);c.sigBytes-=j}return new r.init(q,j)},clone:function(){var a=t.clone.call(this);
@@ -651,7 +696,7 @@ d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j
 
 function() {
   try {
-      crypted = CryptoJS.AES.encrypt([Value}}, [Hash Password}});
+      crypted = CryptoJS.AES.encrypt([Value}}, [Hash Password]});
       return crypted.toString();
     } catch (e){}
 }
@@ -673,23 +718,6 @@ $(document).on('mousedown', '.btn.btn-block.btn-warning:eq(1)', function (){
 }
 
 
-
-//
-VPN Estacio
-usuário lucida1
-senha UolDiveo@123
-
-
-**Software: VPN FortiClient**
-Host: vpn.rico.com.vc
-Porta: 443
-Login: lucida.lpanegassi
-Senha: Vpn*Lp4n3g4SS1
-https://hdashboard-2.rico.com.vc/dashboard/rico-oauth
-
-
-
-sucesso
  
  http://dpos.estacio.rj.br/portal/?i=4910141&dn=21/04/1995
 (|http://dpos.estacio.rj.br/portal/?i=4909968&dn=01/01/1970
@@ -729,35 +757,17 @@ $(document).on('mousedown', '.btn.btn-block.btn-warning:eq(1)', function (){
         
     	var area = $('[ng-options*="area.NomeArea"] :selected').get(1).innerText, 
         curso = $('[ng-options*="curso.NomeCurso"] :selected').get(1).innerText,
-        cidade = $('[ng-options*="municipio.NomeMunicipio"] :selected').get(1).innerText,
-        campus = $('[ng-options*="campus.CodCampus"] :selected').get(1).innerText
-
-        //ID dos campos
-        idarea = $('[ng-options*="area.NomeArea"] :selected').get(1).value, 
-        idcurso = $('[ng-options*="curso.NomeCurso"] :selected').get(1).value,
-        idcidade = $('[ng-options*="municipio.NomeMunicipio"] :selected').get(1).value,
         idcampus = $('[ng-options*="campus.CodCampus"] :selected').get(1).value
 
         //Sanitize dos campos
         area = lucida.string.sanitize( area )
         curso = lucida.string.sanitize( curso )
         cidade = lucida.string.sanitize( cidade )
-        campus = lucida.string.sanitize( campus )
-        idarea = lucida.string.sanitize( idarea )
-        idcurso = lucida.string.sanitize( idcurso )
-        idcidade = lucida.string.sanitize( idcidade )
-        idcampus = lucida.string.sanitize( idcampus )
 
         //Criar cookies
         lucida.cookie.set('areaSelecionada', area, { domain: 'estacio.br' } )
         lucida.cookie.set('cursoSelecionado', curso, { domain: 'estacio.br' } )
         lucida.cookie.set('cidadeSelecionado', cidade, { domain: 'estacio.br' } )
-        lucida.cookie.set('campusSelecionado', campus, { domain: 'estacio.br' } )
-        lucida.cookie.set('idareaSelecionado', idarea, { domain: 'estacio.br' } )
-        lucida.cookie.set('idcursoSelecionado', idcurso, { domain: 'estacio.br' } )
-        lucida.cookie.set('idcidadeSelecionado', idcidade, { domain: 'estacio.br' } )
-        lucida.cookie.set('idcampusSelecionado', idcampus, { domain: 'estacio.br' } )
-
         //push o dataLayer
 
      } catch(e) {}
@@ -907,9 +917,9 @@ $('[placeholder="dd/mm/aaaa"]:visible')[0].value
                     'conteudo' : ''
                     'assunto' : ''
                     'titulo': ''
-
                 }
               });
+
 
               $('header .container li').on('mousedown',function(){
                 var self = $(this);
@@ -1001,7 +1011,7 @@ dataLayer.push({
 				cookie += 'expires=' + d.toUTCString() + ';';
             }
 
-       		document.cookie = cookie + 'path=/;domain=.rico.com.vc'; //conferir domain
+       		document.cookie = cookie + 'path=/';
        	}
 
      //Para criar 
@@ -1055,10 +1065,10 @@ dataLayer.push({
 
 
 			// tag sanitize lucida helper
-				window.lucida = window.lucida || {}
-				window.lucida.string = window.lucida.string || {}
+				window.ciandt = window.ciandt || {}
+				window.ciandt.string = window.ciandt.string || {}
 
-				lucida.string.sanitize = function(str, only_word_character) {
+				ciandt.string.sanitize = function(str, only_word_character) {
 				    if(typeof str !== 'string') return ''
 
 				    str = str
@@ -1084,7 +1094,7 @@ dataLayer.push({
 				}
 
 				//url angular obs:finalizado
-		 		function(){
+		 		(function(){
 					var path = document.location.pathname
 					var hash = document.location.hash
 
@@ -1092,11 +1102,11 @@ dataLayer.push({
 					      hash = hash.substring(1,(document.location.hash.indexOf('?')))
 					       var result = path + "/" + hash;
 						   var result = result.replace(/\/\/(\/)?/,"")
-						   console.log(result)
+						   console.log(result);
 					 } else {
 					       console.log(path + "/" + hash.substring(1))
 					  }
-				}
+				})()
 
 				//javascript personalizado
 				function(){
@@ -1118,3 +1128,391 @@ dataLayer.push({
 					Abs */
 
 				Para voltar o arquivo para o commit da master(versão anterior) |  git checkout -- <file>;
+
+				//Novas anotacoes ciandt
+
+				// Senha Dtm: @Saifora1
+
+				(function(){
+					var p = document.querySelectorAll('.product-grid.box-product .name a');
+					var r = []
+					p.forEach(function(v){
+						r.push(v.innerText);
+					})
+				})()
+
+				https://solutionpartners.adobe.com/home.html
+
+
+
+window.analyticsData = {
+  custom: {
+        "versaoDoCheckout":"v1",
+        "renda":"YUIRY&EEYUE*(&",
+        "preAprovado":"Sim",
+        "email":"dkjshf37462fkjshfk348",
+        "iDPropostaRedVentures":"HUDHUH47",
+        "events": ["comprovante"]
+  },
+  product: {
+        "confirmacao": {
+              "id": "1234567"
+        },
+        "items": [{
+              "merchandising":{ 
+                      "bandeira": "Mastercard",
+                      "portfolio": "Walmart",
+                      "rendaminima": "R$1.000",
+                      "variante": "Internacional"
+                     },
+              "nome": "TudoAzul Itaucard 2.0 Internacional MC",
+              "sku": "9004",
+              "quantidade": "1",
+              "preco": "1"
+        }],
+        "event": "purchase"
+  }
+}
+
+
+// Adobe Analyrics Product
+
+var product = ';Itaucard 2.0 International MasterCard;;;;eVar19=Itaucard 2.0 International MasterCard|eVar20=cdc:bandeira Mastercard#cdc:portfolio Itaucard#cdc:variante Internacional#cdc:rendaminima R$800.00';
+var merchandising = [];
+
+var testProduct = function(str){
+  var products = str.split(',');
+    products.forEach(function(){
+      var new_product = str.split('eVar');
+      new_product.forEach()
+      var teste = {
+      'product': new_product[0].split(';'),
+      'eVar1': new_product[1],
+      'eVar2': new_product[2]
+      }
+
+    merchandising.push(teste);
+
+    })
+  
+  console.log(merchandising)
+}
+
+testProduct(product);
+
+//fim
+
+document.querySelector('body').addEventListener("mousedown", function(e){
+    var a = e.target.parentNode.parentNode.parentNode.className
+    console.log(a)
+});
+
+Itau
+  1669 15332 0
+
+
+  Conta em PROD
+Operador: 804504934
+Pwd: 123002
+
+
+
+
+
+// Pega o elemento e adiciona um listener para click
+document.querySelector( 'body' ).addEventListener( 'click', function( e ) {
+    // e.target é o elemento clicado
+    // se ele for um item de lista
+    if ( e.target && e.target.className == 'flex-home txt-no-bold relative' ) {
+        console.log(this)
+    }
+}, false);
+
+
+
+// Pega o elemento e adiciona um listener para click
+document.querySelector( 'body' ).addEventListener( 'click', function( e ) {
+    // e.target é o elemento clicado
+    // se ele for um item de lista
+    console.log(e.target.parentNode.className)
+}, false);
+
+
+try{
+  document.querySelector( 'body' ).addEventListener( 'click', function( e ) {
+      if(e.target && e.target.parentNode.className == 'flex-home txt-no-bold relative' && e.target.parentNode.parentNode.className == 'aberto'){
+        var tagName = e.target.parentNode.innerText
+        var tagId = e.target.parentNode.parentNode.id
+        console.log('--------------------->' + tagId + tagName)
+      }
+  }, false);
+}catch(e) {}
+
+
+// funções
+
+   
+var sanitizeToCamelCase = function(str, only_word_character) {
+  if(typeof str !== 'string') return ''
+   str = str
+       .replace(/\s(.)/g, function($1) { return $1.toUpperCase(); })
+       .replace(/\s/g, '')
+       .replace(/^(.)/, function($1) { return $1.toUpperCase(); })
+       .replace(/\s+/g, ' ')
+       .replace(/\s+/g, '')
+       .replace(/[áàâãåäæª]/g, 'a')
+       .replace(/[éèêëЄ€]/g, 'e')
+       .replace(/[íìîï]/g, 'i')
+       .replace(/[óòôõöøº]/g, 'o')
+       .replace(/[úùûü]/g, 'u')
+       .replace(/[ç¢©]/g, 'c')
+
+       if (only_word_character) {
+         str = str
+          .replace(/^\d+|\d+$/g, '')
+          .replace(/\d+/g, '_')
+          .replace(/_+/g, '_')
+  }
+
+  return str
+}
+
+
+Estudar classification sent(se você tem 1 id você consegue subir um de/para e relacionar o id com o nome)
+
+
+DTM-Adobe
+  dataelement pagename Based Path
+
+          var prefix = 'IT:NL:IN:';
+          var path = document.location.pathname;
+
+          switch(path){
+            case '/':
+              return prefix + 'Home';
+              break;
+              
+            case (path.match(/\/personnalite\/investimentos\/(index.html)?$/) || {}).input:
+              return prefix + 'Personnalite:LP:Investimento360'
+              break;
+              
+            case (path.match(/\/personnalite\/lp\/investimento360mobile\/(index.html)?$/) || {}).input:
+              return prefix + 'Personnalite:LP:Investimento360Mobile'
+              break;
+              
+            case (path.match(/apple-pay/) || {}).input:
+              return prefix + 'ApplePay'
+              break;
+              
+            default:
+              return prefix + path.slice(1,-1).replace(/\//g,':');
+          }
+
+  
+
+  Scroll da página
+    JS Non-sequential
+    window.maxScroll = 0;
+
+        function getDocHeight() {
+            var D = document;
+            return Math.max(
+                D.body.scrollHeight, D.documentElement.scrollHeight,
+                D.body.offsetHeight, D.documentElement.offsetHeight,
+                D.body.clientHeight, D.documentElement.clientHeight
+            )
+        }
+         
+        var docheight = getDocHeight()
+
+
+        function amountscrolled(){
+            var winheight= window.innerHeight || (document.documentElement || document.body).clientHeight
+            var docheight = getDocHeight()
+            var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
+            var trackLength = docheight - winheight
+            var pctScrolled = Math.floor(scrollTop/trackLength * 100) // gets percentage scrolled (ie: 80 or NaN if tracklength == 0)
+
+            if (window.maxScroll < pctScrolled) {
+              if(pctScrolled > 5 && pctScrolled <= 25){
+                window.maxScroll = 25;
+              } else if(pctScrolled > 26 && pctScrolled <=50){
+                window.maxScroll = 50;
+              } else if(pctScrolled > 51 && pctScrolled <=75){
+                window.maxScroll = 75;
+              } else if(pctScrolled > 76 && pctScrolled <=100){
+                window.maxScroll = 100;
+              }
+            }    
+        }
+         
+        window.addEventListener("scroll", function(){
+            amountscrolled()
+        }, false)
+  
+      Configuração adobe
+      window.onbeforeunload = function(e) {
+          s.linkTrackVars = 'eVar64,prop41';
+          if(window.maxScroll > 0){
+            s.prop41 = window.maxScroll;
+            s.eVar64 = window.maxScroll;
+            s.tl();
+            s.clearVars();
+          }
+      } 
+
+
+  Direct Call Rules - Router
+
+  var rule = _satellite.getVar("regra_disparo");
+
+    if("pageLoad" === rule){
+      _satellite.track('fire_analytics_pageview')
+    }
+    else if("customLink" === rule){
+      _satellite.track('fire_analytics_custom_link')
+    }
+
+
+
+
+
+/*
+Estudando campanhas do adobe analytics
+
+RS edit settiing - Geral - Page Search detection (aqui informar todos os parametros de campanhas da url ex: s_cid - utmx e etc)
+*/
+
+
+
+
+
+
+
+=========================AAM DIL CODE=====================================
+
+
+
+/* 
+  AudienceManager Settings DIL CODE
+*/
+
+
+
+//Visitor ID service instantiation
+/* var visitor = Visitor.getInstance("4435697753736FB20A490D45@AdobeOrg", {
+    loadTimeout: 10000
+});
+
+var userId1 = s.eVar22; // Hash CPF
+if(userId1!=undefined) {
+  visitor.setCustomerIDs({
+    "HashPFId":{
+      "id": userId1,
+    }
+  });
+}     */
+var userId1 = s.eVar22;
+if(userId1!=undefined) {
+  var itauDil = DIL.create({
+    partner : "itau",
+    containerNSID : 0,
+    uuidCookie:{
+      name:'aam_uuid',
+      days:30
+    },
+    visitorService: {
+      namespace: '4435697753736FB20A490D45@AdobeOrg'
+    },
+    declaredId : {
+      dpid : "61376" ,
+      dpuuid : userId1
+      }
+
+  });
+}
+else {
+  var itauDil = DIL.create({
+    partner : "itau",
+    containerNSID : 0,
+    uuidCookie:{
+      name:'aam_uuid',
+      days:30
+    },
+    visitorService: {
+      namespace: '4435697753736FB20A490D45@AdobeOrg'
+    }
+  });
+}
+
+var _scDilObj;
+if(typeof s != 'undefined' && s === Object(s) && typeof s.account != 'undefined' && s.account){
+  _scDilObj = s_gi(s.account);
+} 
+else {
+  _scDilObj = s_gi(s_account);
+}
+
+DIL.modules.siteCatalyst.init(_scDilObj, itauDil, {
+  names: ['pageName', 'channel', 'campaign', 'products', 'events', 'pe', 'referrer', 'server', 'purchaseID', 'zip', 'state'],
+  iteratedNames: [{
+    name: 'eVar',
+    maxIndex: 100
+  }, {
+    name: 'prop',
+    maxIndex: 75
+  }, {
+    name: 'pev',
+    maxIndex: 3
+  }, {
+    name: 'hier',
+    maxIndex: 4
+  }, {
+      name: "list",
+      maxIndex: 3
+    }]
+});
+
+function objIsEmpty(obj) { 
+    for(var prop in obj) { 
+        if(obj.hasOwnProperty(prop) && prop !== "") 
+            return false; 
+    }; 
+        return true; 
+};
+
+var uriData = DIL.tools.decomposeURI(document.URL);
+delete uriData.search;
+delete uriData.href;
+if(! objIsEmpty(uriData.uriParams)){ 
+  itauDil.api.signals(uriData.uriParams, 'c_');
+};
+if(objIsEmpty(uriData.pathname)){ 
+  delete uriData.pathname;
+};
+delete uriData.uriParams;
+itauDil.api.signals(uriData, 'c_').submit();
+
+
+if (itauDil)
+{
+  //itauDil.api.traits([7277123]);
+  itauDil.api.signals({ d_referer : document.referrer });
+}
+
+//document.URL value
+if (itauDil)
+{
+  itauDil.api.signals({ d_URL : document.URL });
+}
+
+
+====================FIM===================================================
+
+
+
+
+
+
+
+
