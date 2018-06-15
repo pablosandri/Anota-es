@@ -52,7 +52,34 @@ window.analyticsData = {
     rule: "pageLoad"
 };
 
-_satellite.track('click_attendance_action'); //Executar a função 
+_satellite.track('click_attendance_action'); //Executar a função
+
+	var sanitizeToCamelCase = function(str, only_word_character) {
+	  if(typeof str !== 'string') return ''
+	   str = str
+	       .replace(/\s(.)/g, function($1) { return $1.toUpperCase(); })
+	       .replace(/\s/g, '')
+	       .replace(/^(.)/, function($1) { return $1.toUpperCase(); })
+	       .replace(/\s+/g, ' ')
+	       .replace(/\s+/g, '')
+	       .replace(/[áàâãåäæª]/g, 'a')
+	       .replace(/[éèêëЄ€]/g, 'e')
+	       .replace(/[íìîï]/g, 'i')
+	       .replace(/[óòôõöøº]/g, 'o')
+	       .replace(/[úùûü]/g, 'u')
+	       .replace(/[ç¢©]/g, 'c')
+
+	       if (only_word_character) {
+	         str = str
+	          .replace(/^\d+|\d+$/g, '')
+	          .replace(/\d+/g, '_')
+	          .replace(/_+/g, '_')
+	  }
+
+	  return str
+	}
+	```
+
 
  ```
 
