@@ -51,16 +51,8 @@ x = 4
 y = 3
 ```
 
-5. Comando de entrada de dados em um programa
-O comando input é utilizado no Python 3 para entrada de dados no programa. Esse comando
-somente recebe entrada de STRINGS. Para utilizar valores numéricos é necessário transformar
-os valores em inteiro (int) ou real (float). Digite as linhas abaixo e verifique como usar o input e
-como fazer a transformação da string em inteiro ou real.
+## Input
 
-
-1) Comando input para STRINGS: basta atribuir diretamente o valor digitado a uma variável do
-programa usando uma mensagem para explicar ao usuário o que digitar. Digite as linhas a
-seguir:
 a) nome = input(“Digite seu nome: ”)
 nome
 sobrenome = input(“Digite seu último sobrenome: ”)
@@ -73,9 +65,11 @@ frase = “a cidade é “ + cidade + “ e o meio de transporte é “ + transp
 frase
 Escola de Engenharias, Tecnologia e Informação
 Tecnólogo em Gestão da Tecnologia da Informação
+
 2) Comando input para números: a atribuição é feita da mesma maneira que para a string,
 mas é necessário transformar o valor em inteiro ou real durante ou depois da atribuição.
 Digite as linhas a seguir, veja os erros que acontecem e como corrigi-los.
+
 a) numero = input(“Digite um número inteiro: “)
 numero
 soma = numero + 10
@@ -97,3 +91,7 @@ valor * 2.45
 juros = float(input(“digite a taxa de juros: ”))
 valorAtual = valor * juros
 valorAtual
+
+
+
+
