@@ -92,9 +92,64 @@ juros = float(input(“digite a taxa de juros: ”))
 valorAtual = valor * juros
 valorAtual
 
+======
+
+1) Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses
+números.
 
 
-### SQL
+num1 = float(input("Digite o primeiro numero"));
+num2 = float(input("Mais 1"));
+num3 = float(input("Mais 1"));
+num4 = float(input("Outro"));
+_self = num1 + num2 + num3 + num4;
+print(_self)
+
+
+a = 'Z';b = 'Y'
+
+```python
+
+def e01():
+    num1 = int(input("Digite o primeiro numero"));
+    num2 = int(input("Mais 1"));
+    num3 = int(input("Mais 1"));
+    num4 = int(input("Outro"));
+    _self = 'Soma = ', num1 + num2 + num3 + num4;
+    print(_self);
+
+def e02():
+    num1 = int(input("Digite a nota 01"));
+    num2 = int(input("Digite a nota 02"));
+    num3 = int(input("Digite a nota 03"));
+    
+    _self = [num1,num2,num3];
+    total = len(_self);
+    a = 0;
+    
+    for x in _self:
+        a += x;
+        
+    media = a/total;
+    
+    print(media);
+
+def e03(num1,num2,num3,pes1,pes2,pes3):
+    MPonderada = (num1*pes1+num2*pes2+num3*pes3)/(pes1+pes2+pes3);
+    print('Média Ponderada=',MPonderada);
+    #10,10,5,5,3,2
+
+    
+
+```
+
+
+
+
+
+
+
+# SQL
 
 
 CREATE TABLE TESTE(
