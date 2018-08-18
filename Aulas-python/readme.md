@@ -151,6 +151,19 @@ def e03(num1,num2,num3,pes1,pes2,pes3):
 
 # SQL
 
+```javascript
+    /*
+        Dados para login
+        
+        conexão: metodista
+        Usuário: AL253711   
+        senha: AL253711
+        host: 10.21.250.10
+        porta: 1521
+        SID: dbfacet
+    */
+```
+
 
 CREATE TABLE TESTE(
   CODIGO  NUMBER(5),
