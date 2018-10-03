@@ -390,4 +390,13 @@ def e01():
     result = aumentoSal(sal)
     print(result)
     
+    def bonus(num1,num2):
+    if num1 == 0:
+        if num2 <=3:
+            return 0.5
+        else:
+            return 0.3
+    else:
+        return 0.3
+    
 ```
