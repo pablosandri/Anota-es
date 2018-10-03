@@ -375,4 +375,19 @@ VALUES (108,'NORTH WOODS HEALTH AND FITNESS SUPPLY CENTER','98 LONE PINE WAY','H
 SELECT * FROM CUSTOMER
 COMMIT
 ```
+```python
+def aumentoSal(num1):
+	if num1 < 1000:
+		num1 = (num1*0.1) + num1
+		return num1
+	else:
+		num1 = (num1*0.05) + num1
+		return num1
+
+
+def e01():
+    sal = float(input('Digita o salario:'))
+    result = aumentoSal(sal)
+    print(result)
+    
 ```
