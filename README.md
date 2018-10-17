@@ -65,3 +65,41 @@ Método:
   }
 ```
 
+###Python array
+
+```python
+def e01():
+    ##exe1,2
+    vetPrecos = []
+    cont = 0
+    while cont < 5:
+        precoUnits = float(input('digite um valor:'))
+        vetPrecos.append(precoUnits)
+        cont += 1
+    print(vetPrecos)
+
+    ##exe3
+    
+    cont02 = 0
+    while cont02 < 2:
+        cont02 += 1
+        precoUnits = float(input('digite outro valor:'))
+        vetPrecos.insert(0, precoUnits)
+    print(vetPrecos)
+
+    ##exe4
+
+    vetPrecos.pop(2)
+    vetPrecos.pop(4)
+    print(vetPrecos)
+
+    ##exe5
+
+    print(len(vetPrecos))
+
+    #exe6
+
+    for x in vetPrecos:
+        print(x) 
+    
+```
