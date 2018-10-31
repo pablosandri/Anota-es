@@ -376,27 +376,62 @@ SELECT * FROM CUSTOMER
 COMMIT
 ```
 ```python
-def aumentoSal(num1):
-	if num1 < 1000:
-		num1 = (num1*0.1) + num1
-		return num1
-	else:
-		num1 = (num1*0.05) + num1
-		return num1
+class Conta:
+    def __init__(self, numero, nome, saldo, limite):
+        self.__numero = numero
+        self.__nome = nome
+        self.__saldo = saldo
+        self.__limite = limite
 
+    def creditarSaldo(self, valor):
+        self.saldo = self.saldo + valor
 
-def e01():
-    sal = float(input('Digita o salario:'))
-    result = aumentoSal(sal)
-    print(result)
-    
-    def bonus(num1,num2):
-    if num1 == 0:
-        if num2 <=3:
-            return 0.5
+    def debitarSaldo(self, valor):
+        saldoSaque = self.saldo + self.limite
+        if valor < saldoSaque:
+            self.saldo = self.saldo - valor
+            retorno = True
         else:
-            return 0.3
-    else:
-        return 0.3
+            retorno = False
+            return retorno
+
+conta1 = Conta(1,'Pablo Sandri', 5000, 2000)
+conta2 = Conta(2,'Pablo teste02', 5000, 2000)
+print(conta1.nome,conta1.saldo)
+print(conta2.nome,conta2.saldo)
+
+
+## Debitando
+
+conta1.debitarSaldo(100)
+print(conta1.nome,conta1.saldo)
+
+
+## Creditando
+
+conta1.creditarSaldo(500)
+print(conta2.nome,conta2.saldo)
+
+
+
+######## EXE02 ########
+
+class personagem:
+    def __init__(self,cod,nome,forca,saude,din):
+        self.cod = codigo
+        self.nome = nome
+        self.forca = forca
+        self.saude = saude
+        self.din = din
+    
+    
+    def andar(self):
+        self.forca += 1
+        self.saude += 1
+
+    
+    def correr(self,num1):
+        self.
+       
     
 ```
