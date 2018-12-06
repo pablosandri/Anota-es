@@ -1,21 +1,39 @@
 ## SE - Analytics
 
-Apresentação...
+Olá Pessoal!
 
-### Junho - Adobe Analytics - Nova arquitetura
+Eu e o Dani vamos falar um pouco da analytics aqui
 
-Bom em junho foi disponibilizado as primeiras visões com a nova arquitetura do Analytics com isso ganhamos uma visão de ecommerce e a correção do tagueamento.
+### Analytics Novembro
 
-No início contamos com 146 horas da consultoria lima para auxiliar as implementações de tagueamento e etc. No primeiro mês eu passei todo o tagueamento do Recomendação eles gastaram 21h quando eu fui homologar tive que fazer tudo sou um pouco chato com tagueamento e etc, Desde então reduzimos as horas e gastamos no total 30h do contrato.
+#### Eloqua
 
-### Julho - Adobe Target - Implementação
+Em Novembro entregamos as principais reguas automação do eloqua via front-end, deu um puta trabalho mas ficou do *crl*. Basicamente desenvolvemos uma tagueamento que envia as informações do site para o Eloqua. Com essas dados possibilitou criar as seguintes réguas:
 
-Em julho implementamos o Adobe Target e possibilitou o inicio dos testes a/b e experiencias targeting. E desafogamos um pouco os devs com os testes. A ferramenta vem ajudando muuuito encontramos varias oportunidades, conseguimos melhorar a conversão da jornada de crédito apenas habilitando o botão na simulação.
+  - Recomendação
+    - Abandono de LP
+    - Consulta
+    - Abando de carrinho
+    - e outras
+  - Saúde Financeira(Avulso e Assinatura)
+    - Abandono de LP
+    - Auto Consulta 
+    - Abandono de Carrinho
+  - Marketing
+    - Cadastro
+    - Resgate def Token
+    - Resgate def Senha
+    
+#### Adobe Analytics
 
-### Agosto - Eloqua - Automação das réguas de marketing
+Tagueamento do Saúde Financeira Assinatura.
 
-Em Agosto a principal entrega foi a automação do eloqua via front-end, deu um puta trabalho mas ficou do *crl*, e outra pessima expêriencia com consultorias.
+#### Outros
 
+Implementação da experiencia target ```Simulação de Crédito Automatica```.
+
+
+    
 ### Novembro - Data Source Adobe Analytics e Simulação de Crédito automatica
 
 Novembro começamos a 
