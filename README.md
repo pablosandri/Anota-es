@@ -1,105 +1,17 @@
-## Homologação Nova Home e LPs
+## SE - Analytics
 
-#### Alterar DTM Staging e Produção:
+Apresentação...
 
-links:
+### Junho - Adobe Analytics - Nova arquitetura
 
-  Staging:
-  
-  ```html
-  <!-- DTM -->
-  <script src="//assets.adobedtm.com/5fb4a4ca2787b58aa33f33d1e808a50cf47cc1e0/satelliteLib-a7d32691cef9933bb94547afb02e06958cd9c968-staging.js"></script>
-  <!-- End DTM -->
-  ```
-  
-  Prod:
-  
-  ```html
-  <!-- DTM -->
-  <script src="//assets.adobedtm.com/5fb4a4ca2787b58aa33f33d1e808a50cf47cc1e0/satelliteLib-a7d32691cef9933bb94547afb02e06958cd9c968.js"></script>
-  <!-- End DTM -->
-  ```
-  
-#### Inserir a chave ```userInfo``` no DataLayer.
+Bom em junho foi disponibilizado as primeiras visões com a nova arquitetura do Analytics com isso ganhamos uma visão de ecommerce e a correção do tagueamento.
 
-Ex:
-```javascript
-    document.DataLayer = {
-        pageInfo:{ 
-            pageName: "SA:NL:MEMEI:Institucional:Home",
-            siteSection: "NL",
-            subSection: "Institucional",
-            tipoDeCanal: "WEB",
-            url: "https://www.serasaempreendedor.com.br/?debug=true",
-          },
-        rule: "pageLoad",
-        userInfo:{
-            businessId: null,
-            clientId: "5a71e736eb1cf54a9c106a8d",  // Valor fixo
-            userId: null
-        }
-    }
-```
+No início contamos com 146 horas da consultoria lima para auxiliar as implementações de tagueamento e etc. No primeiro mês eu passei todo o tagueamento do Recomendação eles gastaram 21h quando eu fui homologar tive que fazer tudo sou um pouco chato com tagueamento e etc, Desde então reduzimos as horas e gastamos no total 30h do contrato.
 
-#### Mapear os cliques ```CTAs``` com destino o cadastro.
+### Julho - Adobe Target - Implementação
 
-Método: 
+Em julho implementamos o Adobe Target e possibilitou o inicio dos testes a/b e experiencias targeting. E desafogamos um pouco os devs com os testes. A ferramenta vem ajudando muuuito encontramos varias oportunidades, conseguimos melhorar a conversão da jornada de crédito apenas habilitando o botão na simulação.
 
-```javascript
-  function analyticsCliquesGenericos(str1,str2){
-    try{
-     var str1 = document.sanitizeToCamelCase(str1); //clickText
-     var str2 = document.sanitizeToCamelCase(str2); //Section
+### Agosto - Eloqua - Automação das réguas de marketing
 
-     var custom = {
-         events: ['cliquesGenericos'],
-         itemClicado: 'BTN:MEMEI:Institucional:'+ str1+':'+str2,
-         customLink:  'Institucional | CliquesGenericos',
-         }
-      document.DataLayer.custom = custom;
-      document.DataLayer.rule = 'customLink';
-      
-      document.dispatchEvent(new CustomEvent("CliquesGenericos",{'detail': document.DataLayer}));
-      
-      }catch(e){console.log(e);}
-  }
-```
 
-###Python array
-
-```python
-def e01():
-    ##exe1,2
-    vetPrecos = []
-    cont = 0
-    while cont < 5:
-        precoUnits = float(input('digite um valor:'))
-        vetPrecos.append(precoUnits)
-        cont += 1
-    print(vetPrecos)
-
-    ##exe3
-    
-    cont02 = 0
-    while cont02 < 2:
-        cont02 += 1
-        precoUnits = float(input('digite outro valor:'))
-        vetPrecos.insert(0, precoUnits)
-    print(vetPrecos)
-
-    ##exe4
-
-    vetPrecos.pop(2)
-    vetPrecos.pop(4)
-    print(vetPrecos)
-
-    ##exe5
-
-    print(len(vetPrecos))
-
-    #exe6
-
-    for x in vetPrecos:
-        print(x) 
-    
-```
