@@ -14,4 +14,8 @@ Em julho implementamos o Adobe Target e possibilitou o inicio dos testes a/b e e
 
 ### Agosto - Eloqua - Automação das réguas de marketing
 
+Em Agosto a principal entrega foi a automação do eloqua via front-end, deu um puta trabalho mas ficou do *crl*, e outra pessima expêriencia com consultorias.
 
+### Novembro - Data Source Adobe Analytics e Simulação de Crédito automatica
+
+Novembro começamos a 
