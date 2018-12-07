@@ -8,7 +8,9 @@ Eu e o Dani vamos falar um pouco da analytics aqui
 
 #### Eloqua
 
-Em Novembro entregamos as principais reguas automação do eloqua via front-end, deu um puta trabalho mas ficou do *crl*. Basicamente desenvolvemos uma tagueamento que envia as informações do site para o Eloqua. Com essas dados possibilitou criar as seguintes réguas:
+Em Novembro entregamos um tagueamento do Eloqua que resultou na automação das principais reguás de ```E-mail Mkt```, deu um puta trabalho mas ficou do *crl*.
+
+Basicamente desenvolvemos um ```script``` que envia as informações do site para o Eloqua real-time. Com essas dados possibilitou criar as seguintes réguas:
 
   - Recomendação
     - Abandono de LP
@@ -28,12 +30,29 @@ Em Novembro entregamos as principais reguas automação do eloqua via front-end,
 
 Tagueamento do Saúde Financeira Assinatura.
 
-#### Outros
+#### Pastel
 
-Implementação da experiencia target ```Simulação de Crédito Automatica```.
-
-
+Implementação da experiencia target ```Simulação de Crédito Automagica```. Um ```script``` que interpreta a origem do usuário verifica a campanha e no caso do ```pré-aprovado``` conclui a simulação de crédito automagicamente.
     
-### Novembro - Data Source Adobe Analytics e Simulação de Crédito automatica
+    
+    
+### Analytics Dezembro
 
-Novembro começamos a 
+#### Adobe Analytics - Data Source
+
+Data source é uma forma de enriquecer os dados no Analytics, basicamente fazer um join dos dados existentes com outras bases. Segue as possibilidades:
+
+  - Status orders O2C
+  - Resultados de NPS
+  - Dados perdidos do analytics
+    - Cadastros
+    - Score
+    - Persona
+    - Trilha
+
+#### Adobe Target - Setup
+
+Basicamente uma nova confiiguração do adobe target para corrigir os dois principais problemas no adobe target.
+
+  - Piscada
+  - Delay Score Home
