@@ -8,7 +8,7 @@ Eu e o Dani vamos falar um pouco da analytics aqui
 
 #### Eloqua
 
-Em Novembro entregamos um tagueamento do Eloqua que resultou na automação das principais reguás de ```E-mail Mkt```, deu um puta trabalho mas ficou do *crl*.
+Em Novembro entregamos um tagueamento do Eloqua que resultou na automação das principais réguas de ```E-mail Mkt```, deu um puta trabalho mas ficou do *crl*.
 
 Basicamente desenvolvemos um ```script``` que envia as informações do site para o Eloqua real-time. Com essas dados possibilitou criar as seguintes réguas:
 
@@ -32,7 +32,7 @@ Tagueamento do Saúde Financeira Assinatura.
 
 #### Pastel
 
-Implementação da experiencia target ```Simulação de Crédito Automagica```. Um ```script``` que interpreta a origem do usuário verifica a campanha e no caso do ```pré-aprovado``` conclui a simulação de crédito automagicamente.
+Implementação da experiência target ```Simulação de Crédito Automagica```. Um ```script``` que interpreta a origem do usuário, verifica a campanha e no caso do ```pré-aprovado``` conclui a simulação de crédito automagicamente.
     
     
     
@@ -40,7 +40,7 @@ Implementação da experiencia target ```Simulação de Crédito Automagica```. 
 
 #### Adobe Analytics - Data Source
 
-Data source é uma forma de enriquecer os dados no Analytics, basicamente fazer um join dos dados existentes com outras bases. Segue as possibilidades:
+Data source é uma forma de enriquecer os dados no Analytics. Basicamente fazer um join dos dados existentes com outras bases. Seguem as possibilidades:
 
   - Status orders O2C
   - Resultados de NPS
@@ -52,7 +52,7 @@ Data source é uma forma de enriquecer os dados no Analytics, basicamente fazer 
 
 #### Adobe Target - Setup
 
-Basicamente uma nova confiiguração do adobe target para corrigir os dois principais problemas no adobe target.
+Uma melhoria na implementação do adobe target para corrigir os dois principais problemas no adobe target.
 
   - Piscada
   - Delay Score Home
