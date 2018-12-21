@@ -1,5 +1,4 @@
-<img src="https://pablosandri.github.io/sandbox/logo_lockup_analytics_icon_horizontal_black_2x.png" alt="Smiley face" height="42" width="42">
-![GA](https://pablosandri.github.io/sandbox/logo_lockup_analytics_icon_horizontal_black_2x.png)
+<img src="https://pablosandri.github.io/sandbox/logo_lockup_analytics_icon_horizontal_black_2x.png" alt="Smiley face" height="70" width="190">
 
 Área - Digital Analytics
 Última atualização: 21/12/2018
