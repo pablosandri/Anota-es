@@ -3,7 +3,7 @@
 Área - Digital Analytics
 Última atualização: 21/12/2018
 
-# preçolandia - Catálogo
+# Preçolandia - Catálogo
 
 Em caso de dúvidas, entrar em contato com: [pablosandri@outlook.com](mailto:pablosandri@outlook.com)
 
