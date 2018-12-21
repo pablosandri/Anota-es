@@ -1,10 +1,10 @@
 ![Zoly](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
 
 Área - Digital Analytics
+Última atualização: 20/12/2018
+
 
 # preçolandia - Catálogo
-
-Última atualização: 20/12/2018
 
 Em caso de dúvidas, entrar em contato com: [pablosandri@outlook.com](mailto:pablosandri@outlook.com)
 
@@ -15,10 +15,11 @@ Em caso de dúvidas, entrar em contato com: [pablosandri@outlook.com](mailto:pab
     - [Camada de dados](#camada-de-dados-datalayer)
     - [Atributos HTML](#atributos-html-data-attributes)
     - [Eventos](#eventos)
- - [Outros](#outros)
-        - [Botão Assistente de compra](#click-no-botão-assistente-de-compra)
-        - [Botão Mostre os Melhores Presentes](#clique-no-botão-mostre-os-melhores-presentes)
-        - [Enviar e-mail](#click-enviar-o-e-mail)
+- [Implementacao](#Implementacao)
+     - [Outros](#outros)
+            - [Botão Assistente de compra](#click-no-botão-assistente-de-compra)
+            - [Botão Mostre os Melhores Presentes](#clique-no-botão-mostre-os-melhores-presentes)
+            - [Enviar e-mail](#click-enviar-o-e-mail)
 
 # Objetivo
 Este documento tem como objetivo instruir a implementação do Google Tag Manager e a camada de dados para utilização de recursos de monitoramento do Google Analytics, referentes ao [Wireframe](https://app.zeplin.io/projects)
@@ -135,15 +136,15 @@ Os botões devem ter em sua estrutura `html` a classe `gtm-link-event` se for um
 <!-- Use se o elemento for um link -->
 <a href="#"
   class="gtm-link-event" 
-  data-gtm-event-category="link-externo"
-  data-gtm-event-action="click"
-  data-gtm-event-label="nome-do-botao ou destino"
+  data-gtm-event-category="[link-externo]"
+  data-gtm-event-action="[click]"
+  data-gtm-event-label="[nome-do-botao ou destino]"
 >Link</a>
 
 <!-- Use se o elemento não for um link -->
 <i class="gtm-element-event" 
-  data-gtm-event-category="link-externo"
-  data-gtm-event-action="click"
-  data-gtm-event-label="nome-do-botao ou destino"
+  data-gtm-event-category="[link-externo]"
+  data-gtm-event-action="[click]"
+  data-gtm-event-label="[nome-do-botao ou destino]"
 >Botão</i>
 ```
