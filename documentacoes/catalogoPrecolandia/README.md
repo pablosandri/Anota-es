@@ -1,8 +1,7 @@
-![Zoly](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
+![GA](https://pablosandri.github.io/sandbox/logo_lockup_analytics_icon_horizontal_black_2x.png)
 
 Área - Digital Analytics
-Última atualização: 20/12/2018
-
+Última atualização: 21/12/2018
 
 # preçolandia - Catálogo
 
@@ -16,10 +15,9 @@ Em caso de dúvidas, entrar em contato com: [pablosandri@outlook.com](mailto:pab
     - [Atributos HTML](#atributos-html-data-attributes)
     - [Eventos](#eventos)
 - [Implementacao](#Implementacao)
-     - [Outros](#outros)
-            - [Botão Assistente de compra](#click-no-botão-assistente-de-compra)
-            - [Botão Mostre os Melhores Presentes](#clique-no-botão-mostre-os-melhores-presentes)
-            - [Enviar e-mail](#click-enviar-o-e-mail)
+    - [Botão Assistente de compra](#click-no-botão-assistente-de-compra)
+    - [Botão Mostre os Melhores Presentes](#clique-no-botão-mostre-os-melhores-presentes)
+    - [Enviar e-mail](#click-enviar-o-e-mail)
 
 # Objetivo
 Este documento tem como objetivo instruir a implementação do Google Tag Manager e a camada de dados para utilização de recursos de monitoramento do Google Analytics, referentes ao [Wireframe](https://app.zeplin.io/projects)
