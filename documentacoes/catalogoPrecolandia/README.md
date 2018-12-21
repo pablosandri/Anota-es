@@ -1,3 +1,4 @@
+<img src="https://pablosandri.github.io/sandbox/logo_lockup_analytics_icon_horizontal_black_2x.png" alt="Smiley face" height="42" width="42">
 ![GA](https://pablosandri.github.io/sandbox/logo_lockup_analytics_icon_horizontal_black_2x.png)
 
 Área - Digital Analytics
