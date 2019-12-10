@@ -1,4 +1,4 @@
-![SerasEmpreendedor](https://pablosandri.github.io/sandbox/Serasa%20Empreendedor.jg)
+![Empreendedor](https://pablosandri.github.io/sandbox/Serasa%20Empreendedor)
 
 # MPME - Content Management System
 Última atualização: 10/04/2019
